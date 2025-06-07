@@ -1,18 +1,19 @@
 {
   "name": "iot-load-tester",
   "version": "1.0.0",
-  "description": "IoT Load Testing Tool for CPU, Memory, and Network Overload",
+  "description": "IoT Load Testing Tool for CPU, Memory, and Network Overload with Azure Application Insights",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["iot", "load-testing", "performance", "stress-test"],
+  "keywords": ["iot", "load-testing", "performance", "stress-test", "azure", "application-insights"],
   "author": "",
   "license": "MIT",
   "dependencies": {
     "express": "^4.18.2",
     "ws": "^8.14.2",
-    "node-fetch": "^2.7.0"
+    "node-fetch": "^2.7.0",
+    "applicationinsights": "^2.9.1"
   }
 }
